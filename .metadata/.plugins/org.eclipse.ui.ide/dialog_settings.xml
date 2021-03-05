@@ -27,6 +27,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Documentos\Cursos\Java Completo 2020\bkp"/>
 			<item value="C:\temp\Java Completo 2020"/>
 			<item value="C:\temp\Java Completo 2020\"/>
 			<item value="C:\temp\Java Completo 2020\Exercicios"/>

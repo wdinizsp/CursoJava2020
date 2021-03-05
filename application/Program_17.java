@@ -30,6 +30,6 @@ public class Program_17 {
 		System.out.println("Minutes: " + minutes);
 		System.out.println("Month: " + month);
 
-	}
+	} // Fim do main
 
 }
