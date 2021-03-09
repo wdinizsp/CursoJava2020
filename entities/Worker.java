@@ -85,4 +85,4 @@ public class Worker {
 		return sum;
 	}
 
-}
+} // teste
