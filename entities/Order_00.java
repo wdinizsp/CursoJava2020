@@ -4,17 +4,17 @@ import java.util.Date;
 
 import entities.enums.OrderStatus;
 
-public class Order {
+public class Order_00 {
 	
 	private Integer id;
 	private Date moment;
 	private OrderStatus status;
 	
-	public Order() {
+	public Order_00() {
 		
 	}
 
-	public Order(Integer id, Date moment, OrderStatus status) {
+	public Order_00(Integer id, Date moment, OrderStatus status) {
 		this.id = id;
 		this.moment = moment;
 		this.status = status;
@@ -46,7 +46,7 @@ public class Order {
 
 	@Override
 	public String toString() {
-		return "Order [id=" + id + ", moment=" + moment + ", status=" + status + "]";
+		return "Order_00 [id=" + id + ", moment=" + moment + ", status=" + status + "]";
 	}
 	
 
