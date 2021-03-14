@@ -1,17 +1,17 @@
 package entities;
 
-public class Account {
+public class Account_00 {
 	
 	private int number;
 	private String holder;
 	private double balance;
 	
-	public Account(int number, String holder) {
+	public Account_00(int number, String holder) {
 		this.number = number;
 		this.holder = holder;
 	}
 
-	public Account(int number, String holder, double initialDeposit) {
+	public Account_00(int number, String holder, double initialDeposit) {
 		
 		this.number = number;
 		this.holder = holder;
@@ -43,7 +43,7 @@ public class Account {
 	}
 	
 	public String toString() {
-		return "Account "
+		return "Account_00 "
 				+ number
 				+ ", Holder: "
 				+ holder
@@ -54,4 +54,4 @@ public class Account {
 
 	
 
-} // Fim da classe Account
+} // Fim da classe Account_00

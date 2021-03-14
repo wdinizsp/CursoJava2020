@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Account;
+import entities.Account_00;
 
 public class Program_06 {
 
@@ -11,7 +11,7 @@ public class Program_06 {
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
 		
-		Account account;
+		Account_00 account_00;
 
 		System.out.print("Enter account number: ");
 		int number = sc.nextInt();
@@ -24,30 +24,30 @@ public class Program_06 {
 		if (response == 'y') {
 			System.out.print("Enter initial deposit value: ");
 			double initialDeposit = sc.nextDouble();
-			account = new Account(number, holder, initialDeposit);
+			account_00 = new Account_00(number, holder, initialDeposit);
 		}
 		else {
 			
-			account = new Account(number, holder);
+			account_00 = new Account_00(number, holder);
 		}
 		
 		System.out.println();
-		System.out.println("Account data:");
-		System.out.println(account);
+		System.out.println("Account_00 data:");
+		System.out.println(account_00);
 		
 		System.out.println();
 		System.out.print("Enter a deposit value: ");
 		double depositValue = sc.nextDouble();
-		account.deposit(depositValue);
+		account_00.deposit(depositValue);
 		System.out.println("Updated account data: ");
-		System.out.println(account);
+		System.out.println(account_00);
 		
 		System.out.println();
 		System.out.print("Enter a withdraw value: ");
 		double withdrawValue = sc.nextDouble();
-		account.withdraw(withdrawValue);
+		account_00.withdraw(withdrawValue);
 		System.out.println("Updated account data: ");
-		System.out.println(account);
+		System.out.println(account_00);
 
 		sc.close();
 
