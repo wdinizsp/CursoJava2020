@@ -1,6 +1,6 @@
 package entities;
 
-public class Rectangle {
+public class Rectangle_00 {
 	
 	public double width;
 	public double height;
@@ -19,4 +19,4 @@ public class Rectangle {
 	} // fim do método Diagonal
 	
 
-} // fim da classe Rectangle
+} // fim da classe Rectangle_00
